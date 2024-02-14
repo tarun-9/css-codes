@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .cont{
+        display: grid;
+        grid-template-areas: 'footer footer footer'
+        'header header header'
+        'main main main';
+    }
+    header{
+        grid-area: header;
+    }
+    main{
+        grid-area:main;
+    }
+    footer{
+        grid-area: footer;
+    }
+
+  
+</style>
+<body>
+    <div class="cont">
+<header>
+    <nav>
+       this is navbar
+    </nav>
+</header>
+
+<main>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, ea.</p>
+</main>
+
+<footer>
+    <p>this is footer</p>
+</footer>
+    </div>
+</body>
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>attribute_sel2</title>
+    <style>
+         li:nth-child(6){
+            background-color: blue;
+            color: white;
+        }
+        li:first-child{
+            background-color: green;
+            color: white;
+        }
+        li:last-child{
+            background-color: black;
+            color: white;
+        }
+        li:nth-child(even){
+            background-color: red;
+        }
+
+        /* 2n+0 and even are same  */
+        /* 2n+1 and odd are same */
+        
+        .cont::before{
+            content:"lists started";
+        }
+        .cont::after{
+            content: "lists ended";
+        }
+    </style>
+
+</head>
+<body>
+    
+    <div class="cont">
+
+        <li>list1</li>
+        <li>list2</li>
+        <li>list3</li>
+        <li>list4</li>
+        <li>list5</li>
+        <li>list6</li> 
+        <li>list7</li>
+    </div>
+</body>
+</html>

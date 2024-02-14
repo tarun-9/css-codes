@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>positions</title>
+    <style>
+        body{
+            height: 1000px;
+        }
+        .first{
+            background-color: red;
+            height: 100px;
+            width: 100px;
+            display: inline-block;
+             
+        }
+        .cont{
+            border: 1px solid red;
+            height: 8000px;
+            padding: 1px;
+           
+        }
+        .one{
+           background-color: blue;
+           /* position: absolute; */
+           /* left: 30px; */
+           /* right: 30px; */
+           /* bottom: 30px; */
+           /* top: 30px;       */
+        }
+        .two{
+            /* position: relative; */
+            /* top: 30px; */
+            /* right: 30px; */
+            /* left: 30px; */
+            /* bottom: 30px;   */
+            position:sticky;   
+            top: 30px;     
+        }
+        .three{
+            background-color: green;
+           /* position: fixed;*/
+            /* bottom: 10px; */
+            /* top: 10px; */
+            /* right: 50px; */
+            /* left: 50px; */
+        }
+        .four{
+            background-color: brown;
+        }
+        /* position:static : default value */
+    </style>
+</head>
+<body>
+    <div class="cont">
+    <div class="one first">1</div>
+    <div class="two first">2</div>
+    <div class="three first">3</div>
+    <div class="four first">4</div>
+</div>
+</body>
+</html>

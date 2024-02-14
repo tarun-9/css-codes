@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attribute_selector</title>
+    <style>
+        .cont[class]{
+            background-color: aqua;
+        }
+        .cont li[class="item4"]{
+            background-color: blueviolet;
+            color: white;
+            font-size: 20px;
+        }
+
+        h1[class]{
+            background-color: grey;
+        }
+        /* h1[class="item5"]{
+            background-color: brown;
+        }   */
+    </style>
+</head>
+<body>
+ 
+<div class="cont">
+   <li class="item1">list1</li>
+   <li class="item2">list2</li>
+   <li class="item3">list3</li>
+   <li class="item4">list4</li>
+</div>
+
+<h1 class="item5">this is heading</h1>
+<h1 class="itme6">this is head</h1>
+
+</body>
+</html>
