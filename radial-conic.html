@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .radial1{
+            background: radial-gradient(red ,yellow ,green);
+            width: 300px;
+            height: 200px;
+        }
+        .radial2{
+            background: repeating-radial-gradient(red 10%,yellow 20%,green 30%,violet 40%,blue 50%);
+            height: 200px;
+            width: 300px;
+        }
+        .conic{
+            background: conic-gradient(red,yellow,green);
+            height: 200px;
+            width: 300px;
+            border: 3px solid black;
+        }
+        .conic1{
+            background: conic-gradient(violet 10%,indigo ,blue ,green ,yellow,orange,red);
+            height: 200px;
+            width: 300px;
+            border: 3px solid black;
+        }
+        
+    </style>
+</head>
+<body>
+    <h1 class="radial1" >radial gradient</h1>
+    <!-- radials are forms in circles -->
+      <h1 class="radial2">repeating radial gradient</h1>
+      <!-- this is repeating radical gradient -->
+      <h1 class="conic">conic gradient</h1>
+      <!-- conic gradient -->
+      <h1 class="conic1">repeating conic gradient</h1>
+   
+</body>
+</html>
